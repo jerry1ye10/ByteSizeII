@@ -1,3 +1,23 @@
 public interface Deque<Card> {
 
+//enqueues to the front
+public void addFirst();
+
+//enqueues to the end
+public void addLast();
+
+//dequeues to the front
+public Card pollFirst();
+
+//dequeues to the end
+public Card pollLast();
+
+//returns the first element in the deque
+public Card peekFirst();
+
+//returns the last element in the deque
+public Card peekLast();
+
+//returns the size of the deque
+public int size();
 }
