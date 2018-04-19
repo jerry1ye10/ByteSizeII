@@ -1,10 +1,10 @@
 public interface Deque<Card> {
 
 //enqueues to the front
-public void addFirst();
+public void addFirst(Card c);
 
 //enqueues to the end
-public void addLast();
+public void addLast(Card c);
 
 //dequeues to the front
 public Card pollFirst();
@@ -19,5 +19,5 @@ public Card peekFirst();
 public Card peekLast();
 
 //returns the size of the deque
-public int size();
+public boolean isEmpty();
 }
