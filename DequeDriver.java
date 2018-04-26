@@ -36,13 +36,13 @@ public class DequeDriver{
     QQKachoo<String> boats = new QQKachoo<String>();
 
     System.out.println("-----Adding to front------");
-    boats.offerFirst("Yacht(y)");
+    boats.addFirst("Yacht(y)");
     System.out.println("Added: " + boats.peekFirst()); //Yacht(y)
-    boats.offerFirst("Cruise");
+    boats.addFirst("Cruise");
     System.out.println("Added: " + boats.peekFirst()); //Cruise
-    boats.offerFirst("Sail");
+    boats.addFirst("Sail");
     System.out.println("Added: " + boats.peekFirst()); //Sail
-    boats.offerFirst("Row");
+    boats.addFirst("Row");
     System.out.println("Added: " + boats.peekFirst()); //Row
 
     System.out.println("");
@@ -53,11 +53,11 @@ public class DequeDriver{
     System.out.println("");
 
     System.out.println("-----Adding to end------");
-    boats.offerLast("Speed");
+    boats.addLast("Speed");
     System.out.println("Added: " + boats.peekLast()); //Speed
-    boats.offerLast("Fishing");
+    boats.addLast("Fishing");
     System.out.println("Added: " + boats.peekLast()); //Fishing
-    boats.offerLast("Lil'");
+    boats.addLast("Lil'");
     System.out.println("Added: " + boats.peekLast()); //Lil
 
     System.out.println("");
