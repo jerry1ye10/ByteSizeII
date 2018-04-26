@@ -26,3 +26,9 @@
  because the nodes can be altered from either side. As a result, methods
  for adding and removing at either end should run in constant time. This was
  considered over ArrayList and array because we would encounter linear runtime for adding and removing elements at an index because of the need to shift every element, where as nodes can simply rearrange their pointers.
+
+### Changes After Feedback ###
+---
+ * Added more descriptive comments to explain the process within
+ each method
+ * Established uniform indentation 
